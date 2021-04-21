@@ -1,0 +1,55 @@
+body {
+    font-family: fantasy;
+    background-image: url('/images/hands_nice.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background-color:orangered;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1 {
+    vertical-align: middle;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px 20px;
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #FDB45C;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    float: left;
+    margin-right: 20px;
+}
+
+.personal-info {
+    float: left;
+}
+
+.person-row > button {
+   float: right; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
